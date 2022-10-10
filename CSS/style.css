@@ -26,6 +26,7 @@ p {
   position: fixed;
   z-index: 1;
   width: 100%;
+  padding-left: 15px;
 }
 
 .main h1,
@@ -48,11 +49,11 @@ h6 {
   text-shadow: 1px 2px rgb(3, 3, 3, 0.6);
 }
 .main {
-  background-image: url(../Assets/IMG/Profil/zyro-image.jpeg);
+  background-image: url(../Assets/IMG/Profil/d5fe9505-ae56-42bd-a299-78ec6e9cd791.jpg);
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
-  background-position: 0px -360px;
+  background-position: 0px -130px;
   padding: 290px 300px;
   height: 770px;
   box-sizing: border-box;
@@ -92,7 +93,7 @@ h6 {
 }
 .products {
   height: 1850px;
-  background-color: rgb(248, 241, 227);
+  background-color: #eaebf0;
 }
 .products h2,
 .products p {
@@ -168,11 +169,11 @@ a:hover {
   margin: 15px;
   background-size: cover;
   border-radius: 10px;
-  border: 3px solid rgb(187, 154, 92);
   height: 200px;
   width: 200px;
   display: flex;
   position: relative;
+  box-shadow: 2px 2px 3px black;
 }
 #a1 {
   width: 200px;
@@ -188,14 +189,14 @@ a:hover {
 
 .dua {
   flex: 3;
-  background-image: url(../Assets/IMG/Menu/pedas-removebg-preview.png);
+  background-image: url(../Assets/IMG/Menu/pedas.png);
   background-size: cover;
-  background-color: #2596be;
+  background-color: white;
   background-position: 0px -60px;
-  border: 3px solid #fabd03;
+  box-shadow: 2px 2px 5px black;
   height: 400px;
   width: 500px;
-  margin: 4px;
+  margin: 15px;
   border-radius: 25px;
   display: flex;
   position: relative;
@@ -218,22 +219,23 @@ a:hover {
   justify-content: center;
   position: absolute;
   bottom: 0px;
+  font-weight: bold;
   border-radius: 20px;
   font-size: small;
 }
 .tiga {
   flex: 1;
-  background-image: url(../Assets/IMG/Menu/bawang-removebg-preview.png);
+  background-image: url(../Assets/IMG/Menu/bawang.png);
   background-size: cover;
-  background-color: #34a855;
   background-position: 0px -60px;
-  border: 3px solid #fabd03;
+  box-shadow: 2px 2px 5px black;
   height: 400px;
   width: 500px;
-  margin: 4px;
+  margin: 15px;
   position: relative;
   display: flex;
   border-radius: 25px;
+  background-color: white;
 }
 #a3 {
   width: 500px;
@@ -245,23 +247,24 @@ a:hover {
   align-items: center;
   justify-content: center;
   bottom: 0px;
+  font-weight: bold;
   position: absolute;
   border-radius: 20px;
   font-size: small;
 }
 .empat {
   flex: 1;
-  background-image: url(../Assets/IMG/Menu/kencur-removebg-preview.png);
+  background-image: url(../Assets/IMG/Menu/kencur\ pouch.png);
   background-size: cover;
-  background-color: #ec4235;
   background-position: 0px -60px;
-  border: 3px solid #fabd03;
+  box-shadow: 2px 2px 5px black;
   height: 400px;
   width: 500px;
-  margin: 4px;
+  margin: 15px;
   position: relative;
   display: flex;
   border-radius: 25px;
+  background-color: white;
 }
 #a4 {
   width: 500px;
@@ -273,23 +276,24 @@ a:hover {
   align-items: center;
   justify-content: center;
   bottom: 0px;
+  font-weight: bold;
   position: absolute;
   border-radius: 20px;
   font-size: small;
 }
 .lima {
   flex: 1;
-  background-image: url(../Assets/IMG/Menu/kencur_bot-removebg-preview_1__1_-removebg-preview.png);
-  background-color: rgb(247, 230, 3);
+  background-image: url(../Assets/IMG/Menu/kencur\ botol.png);
   background-size: cover;
   background-position: 0px -60px;
-  border: 3px solid #fabd03;
+  box-shadow: 2px 2px 5px black;
   height: 400px;
   width: 500px;
-  margin: 4px;
+  margin: 15px;
   display: flex;
   position: relative;
   border-radius: 25px;
+  background-color: white;
 }
 #a5 {
   width: 500px;
@@ -297,6 +301,7 @@ a:hover {
   height: 50px;
   display: flex;
   flex-wrap: wrap;
+  font-weight: bold;
   color: rgb(3, 3, 3, 0.6);
   align-items: center;
   justify-content: center;
@@ -307,7 +312,13 @@ a:hover {
 }
 .harga {
   font-weight: bold;
-  margin-left: 5px;
+  font-size: 18px;
+  margin-left: 20px;
+  width: 30%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px black;
+  text-align: center;
 }
 #about {
   background-color: #fabd03;
@@ -315,6 +326,110 @@ a:hover {
   line-height: 0.75cm;
   padding: 90px 60px;
 }
+.testimoni {
+  height: 700px;
+  background-color: white;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 0.75cm;
+}
+.testimoni h5 {
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  padding-top: 100px;
+  font-size: 12px;
+}
+.testimoni h2 {
+  padding-top: 170px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0, 06);
+}
+
+.testimoni p {
+  padding: 10px 420px 0px;
+  color: rgb(3, 3, 3, 0.6);
+}
+
+.testimoni .benefits {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px;
+  margin-bottom: 500px;
+}
+.testimoni .one,
+.testimoni .two,
+.testimoni .three,
+.testimoni .four {
+  flex: 1;
+  width: 50%;
+  padding-left: 20px;
+  margin: 15px;
+  padding: 0px 30px;
+  text-align: justify;
+  position: relative;
+  box-shadow: 2px 2px 10px rgb(7, 7, 7, 0.3);
+  border-radius: 12px;
+  height: 70%;
+}
+
+.testimoni .two {
+  background-color: #fabd03;
+}
+.testimoni .three {
+  background-color: #fabd03;
+  height: 290px;
+  width: 300px;
+}
+.testimoni .four {
+  background-color: #fabd03;
+}
+.testimoni .icon {
+  position: absolute;
+  text-align: center;
+  right: 44%;
+  top: 20%;
+  margin-bottom: 10px;
+}
+.testimoni .three .icon {
+  top: 16%;
+}
+.testimoni .judben h5 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+#com {
+  font-size: 10px;
+  left: 0px;
+  text-align: center;
+  flex-direction: row;
+  padding: 0px 20px;
+  width: 100%;
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0, 06);
+  position: absolute;
+  line-height: 0.5cm;
+  margin-bottom: 10px;
+}
+.testimoni .judpen h6 {
+  padding-top: 20px;
+  font-size: 10px;
+  left: 0px;
+  text-align: center;
+  flex-direction: row;
+  padding: 0px 100px;
+  font-family: sans-serif;
+  color: white;
+  position: absolute;
+  line-height: 0.5cm;
+}
+
 .contacts h2 {
   color: gray;
   padding-top: 120px;
@@ -325,7 +440,7 @@ a:hover {
 }
 
 .contacts {
-  background-color: rgb(248, 241, 227);
+  background-color: #eaebf0;
 }
 
 .input {
@@ -341,12 +456,14 @@ a:hover {
 #inp4 {
   border: 1px solid #fabd03;
 }
-#kirim:hover {
+#kirim:hover,
+#reset:hover {
   background-color: orangered;
 }
-#kirim {
+#kirim,
+#reset {
   background-color: grey;
-  width: 400px;
+  width: 200px;
   height: 50px;
   margin: 20px;
   margin-bottom: 40px;
@@ -501,7 +618,7 @@ a:hover {
     margin: auto;
     width: 150px;
     background-size: cover;
-    background-image: url(../Assets/IMG/Menu/bawang-removebg-preview.png);
+    background-image: url(../Assets/IMG/Menu/bawang.png);
     background-position: 50% 50%;
     padding-bottom: 30px;
   }
@@ -597,11 +714,108 @@ a:hover {
     position: absolute;
   }
   .harga {
+    font-size: 10px;
     font-weight: bold;
     margin-left: 5px;
   }
   /* akhir mengatur products */
+  .testimoni {
+    height: 730px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 0.75cm;
+  }
+  .testimoni h5 {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-top: 60px;
+    font-size: 12px;
+  }
+  .testimoni h2 {
+    padding-top: 30px;
+    font-size: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0, 06);
+  }
 
+  .testimoni p {
+    padding: 10px 0px 0px;
+    font-size: 9px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    color: rgb(3, 3, 3, 0.6);
+  }
+
+  .testimoni .benefits {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    margin-bottom: 80px;
+  }
+  .testimoni .two,
+  .testimoni .three,
+  .testimoni .four {
+    flex: 2;
+    width: 100%;
+    padding-left: 20px;
+    margin: 10px;
+    padding: 0px 30px;
+    text-align: justify;
+    position: relative;
+    box-shadow: 2px 2px 10px rgb(7, 7, 7, 0.3);
+    border-radius: 12px;
+    height: 400px;
+  }
+
+  .testimoni .two {
+    background-color: #fabd03;
+  }
+  .testimoni .three {
+    background-color: #fabd03;
+  }
+  .testimoni .four {
+    background-color: #fabd03;
+  }
+  .testimoni .icon {
+    position: absolute;
+    text-align: center;
+    right: 44%;
+    top: 12%;
+    margin-bottom: 10px;
+  }
+  .testimoni .three .icon {
+    margin: auto;
+  }
+  .testimoni .judben h5 {
+    color: rgba(0, 0, 0, 0, 06);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .testimoni .judpen h6 {
+    font-size: 9px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0, 06);
+    line-height: 0.5cm;
+  }
+  #com {
+    padding-top: 30px;
+    font-size: 9px;
+    text-align: center;
+    padding: 0px 20px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0, 06);
+    line-height: 0.5cm;
+  }
   /* mengatur about */
   #about {
     padding-top: 10px;
@@ -666,14 +880,16 @@ a:hover {
     height: 300px;
     border: 1px solid wheat;
   }
-  #kirim {
+  #kirim,
+  #reset {
     width: 100px;
     height: 30px;
     font-size: small;
     border-radius: 5px;
     background-color: gray;
   }
-  #kirim:hover {
+  #kirim:hover,
+  #reset:hover {
     background-color: orangered;
   }
   #wa {
@@ -813,7 +1029,7 @@ a:hover {
     margin: auto;
     width: 220px;
     background-size: cover;
-    background-image: url(../Assets/IMG/Menu/bawang-removebg-preview.png);
+    background-image: url(../Assets/IMG/Menu/bawang.png);
     background-position: 50% 50%;
     padding-bottom: 30px;
     position: absolute;
@@ -838,33 +1054,10 @@ a:hover {
   a:hover {
     color: orange;
   }
-  .satu {
-    flex: 3;
-    background-image: url(../Assets/IMG/Menu/1.jpeg);
-    margin: 15px;
-    background-size: cover;
-    border-radius: 10px;
-    border: 3px solid rgb(187, 154, 92);
-    height: 200px;
-    width: 200px;
-    display: flex;
-    position: relative;
-  }
-  #a1 {
-    width: 200px;
-    background-color: #fabd03;
-    height: 50px;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-  }
 
   .dua {
     flex: 3;
-    background-image: url(../Assets/IMG/Menu/pedas-removebg-preview.png);
+    background-image: url(../Assets/IMG/Menu/pedas.png);
     background-size: cover;
     background-color: white;
     background-position: -40px 0px;
@@ -894,7 +1087,7 @@ a:hover {
   }
   .tiga {
     flex: 1;
-    background-image: url(../Assets/IMG/Menu/bawang-removebg-preview.png);
+    background-image: url(../Assets/IMG/Menu/bawang.png);
     background-size: cover;
     background-color: white;
     background-position: -50px 0px;
@@ -923,7 +1116,7 @@ a:hover {
   }
   .empat {
     flex: 1;
-    background-image: url(../Assets/IMG/Menu/kencur-removebg-preview.png);
+    background-image: url(../Assets/IMG/Menu/kencur\ pouch.png);
     background-size: cover;
     background-color: white;
     background-position: -40px 0px;
@@ -952,7 +1145,7 @@ a:hover {
   }
   .lima {
     flex: 1;
-    background-image: url(../Assets/IMG/Menu/kencur_bot-removebg-preview_1__1_-removebg-preview.png);
+    background-image: url(../Assets/IMG/Menu/kencur\ botol.png);
     background-color: white;
     background-size: cover;
     background-position: -50px 0px;
@@ -981,7 +1174,13 @@ a:hover {
   }
   .harga {
     font-weight: bold;
-    margin-left: 5px;
+    font-size: 10px;
+    margin-left: 20px;
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px black;
+    text-align: center;
   }
   /* akhir mengatur products */
 
@@ -1003,7 +1202,103 @@ a:hover {
     line-height: 0.5cm;
   }
   /* akhir mengatur about */
+  .testimoni {
+    height: 430px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 0.75cm;
+  }
+  .testimoni h5 {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-top: 60px;
+    font-size: 12px;
+  }
+  .testimoni h2 {
+    padding-top: 30px;
+    font-size: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0, 06);
+  }
 
+  .testimoni p {
+    padding: 10px 0px 0px;
+    font-size: 9px;
+    text-align: center;
+    width: 100%;
+    color: rgb(3, 3, 3, 0.6);
+  }
+
+  .testimoni .benefits {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .testimoni .two,
+  .testimoni .three,
+  .testimoni .four {
+    flex: 1;
+    width: 100%;
+    margin: 10px;
+    padding: 0px 10px;
+    text-align: justify;
+    box-shadow: 2px 2px 10px rgb(7, 7, 7, 0.3);
+    border-radius: 12px;
+    height: 200px;
+  }
+
+  .testimoni .two {
+    background-color: #fabd03;
+  }
+  .testimoni .three {
+    background-color: #fabd03;
+  }
+  .testimoni .four {
+    background-color: #fabd03;
+  }
+  .testimoni .icon {
+    position: absolute;
+    text-align: center;
+    right: 42%;
+    top: 20%;
+    margin-bottom: 10px;
+  }
+  .testimoni .three .icon {
+    margin: auto;
+  }
+  .testimoni .judben h5 {
+    color: rgba(0, 0, 0, 0, 06);
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .testimoni .judpen h6 {
+    font-size: 9px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0, 06);
+    line-height: 0.5cm;
+  }
+  #s {
+    top: 20%;
+  }
+  #com {
+    padding-top: 30px;
+    font-size: 9px;
+    text-align: center;
+    padding: 0px 20px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0, 06);
+    line-height: 0.5cm;
+  }
   /* mengatur contacts */
   #contacts {
     padding-top: 10px;
@@ -1050,14 +1345,16 @@ a:hover {
     height: 300px;
     border: 1px solid wheat;
   }
-  #kirim {
+  #kirim,
+  #reset {
     width: 100px;
     height: 30px;
     font-size: small;
     border-radius: 5px;
     background-color: gray;
   }
-  #kirim:hover {
+  #kirim:hover,
+  #reset:hover {
     background-color: orangered;
   }
   #wa {

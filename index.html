@@ -31,13 +31,19 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#products">Products</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#contacts">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimoni">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="whatsapp" href="https://wa.me/6285759494664"><img src="https://img.icons8.com/fluency/30/000000/whatsapp.png" /></a>
               </li>
             </ul>
           </div>
@@ -74,7 +80,7 @@
             <p id="intro"></p>
           </div>
           <div class="picunggul">
-            <a href="#titleprod"><img src="Assets/IMG/Menu/bawang-removebg-preview.png" width="450px" height="400px" alt="" /></a>
+            <a href="#titleprod"><img src="Assets/IMG/Menu/bawang.png" width="450px" height="400px" alt="" /></a>
           </div>
         </div>
         <p id="titleprod">We have several flavors, here are our biji ketapang products</p>
@@ -86,24 +92,66 @@
           > -->
           <a href="Assets/IMG/Menu/3.jpeg"
             ><div class="dua">
-              <div class="produk1" id="a2">Spicy Flavour <span class="harga"> (Rp. 10,000)</span></div>
+              <div class="produk1" id="a2">Spicy Flavour <span class="harga"> Rp. 10,000</span></div>
             </div></a
           >
           <a href="Assets/IMG/Menu/4.jpeg"
             ><div class="tiga">
-              <div class="produk1" id="a3">Onion Flavour <span class="harga"> (Rp. 10,000)</span></div>
+              <div class="produk1" id="a3">Onion Flavour <span class="harga"> Rp. 10,000</span></div>
             </div></a
           >
           <a href="Assets/IMG/Menu/5.jpeg"
             ><div class="empat">
-              <div class="produk1" id="a4">Sand Ginger Flavour <span class="harga"> (Rp. 10,000)</span></div>
+              <div class="produk1" id="a4">Sand Ginger Flavour <span class="harga"> Rp. 10,000</span></div>
             </div></a
           >
           <a href="Assets/IMG/Menu/6.jpeg"
             ><div class="lima">
-              <div class="produk1" id="a5">Sand Ginger Flavour <span class="harga"> (Rp. 10,000)</span></div>
+              <div class="produk1" id="a5">Sand Ginger Flavour <span class="harga"> Rp. 10,000</span></div>
             </div></a
           >
+        </div>
+      </div>
+      <div class="testimoni" id="testimoni">
+        <h2 id="judtestimoni">Testimonials</h2>
+        <p>Here are Some Reviews From our Customers</p>
+        <div class="benefits">
+          <div class="two">
+            <img class="icon" src="Assets/IMG/Menu/dede supriyadi.jpg" width="40px" height="40px" />
+            <div class="judben"><h5>Dede Supriyadi</h5></div>
+            <center>
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+            </center>
+            <div class="judpen"><h6>Enak gurih cepetan serbu sebelum kehabisan</h6></div>
+          </div>
+          <div class="three">
+            <img class="icon" id="s" src="Assets/IMG/Menu/neng hania.jpg" width="40px" height="40px" />
+            <div class="judben"><h5>Neng Hania Imot</h5></div>
+            <center>
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+            </center>
+            <div class="judpen"><h6 id="com">ini biji ketapangnya enak banget , renyah dan top, sangat sesuai untuk cemilan sehat, jossssss</h6></div>
+          </div>
+          <div class="four">
+            <img class="icon" src="Assets/IMG/Menu/rizqin awaludin.jpg" width="40px" height="40px"" />
+            <div class="judben"><h5>Rizqin Awaludin</h5></div>
+            <center>
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+              <img src="https://img.icons8.com/ios/25/000000/christmas-star.png" />
+            </center>
+            <div class="judpen"><h6>Rasanya Enak, Gurih, Harga Terjangkau</h6></div>
+          </div>
         </div>
       </div>
       <aside id="about">
@@ -125,6 +173,7 @@
             <input type="email" id="inp3" class="input" name="email" placeholder=" Email" required="" />
             <textarea name="text" id="inp4" class="input" name="message" cols="30" rows="10" placeholder="Type your Request" required=""></textarea>
             <button id="kirim" onclick="window.location.reload">Kirim</button>
+            <button id="reset" onclick="window.location.reload">Reset</button>
           </center>
           <center>
             <div class="row gx-4 gx-lg-5 justify-content-center">
