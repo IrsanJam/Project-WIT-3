@@ -790,7 +790,7 @@ a:hover {
   .testimoni .icon {
     position: absolute;
     text-align: center;
-    right: 42%;
+    margin: auto;
     top: 11%;
     margin-bottom: 10px;
   }
