@@ -26,7 +26,8 @@ p {
   position: fixed;
   z-index: 1;
   width: 100%;
-  padding-left: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .main h1,
@@ -93,7 +94,7 @@ h6 {
 }
 .products {
   height: 1850px;
-  background-color: #eaebf0;
+  background-color: rgb(250, 249, 249);
 }
 .products h2,
 .products p {
@@ -312,9 +313,9 @@ a:hover {
 }
 .harga {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 10px;
   margin-left: 20px;
-  width: 30%;
+  width: 20%;
   background-color: white;
   border-radius: 20px;
   box-shadow: 1px 1px 3px black;
@@ -389,16 +390,16 @@ a:hover {
 .testimoni .icon {
   position: absolute;
   text-align: center;
-  right: 44%;
+  right: 41%;
   top: 20%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .testimoni .three .icon {
   top: 16%;
 }
 .testimoni .judben h5 {
-  color: white;
-  margin-top: 10px;
+  color: rgba(0, 0, 0, 0, 06);
+  margin-top: 15px;
   margin-bottom: 5px;
   font-size: 12px;
   text-align: center;
@@ -440,7 +441,7 @@ a:hover {
 }
 
 .contacts {
-  background-color: #eaebf0;
+  background-color: rgb(250, 249, 249);
 }
 
 .input {
@@ -473,11 +474,14 @@ a:hover {
   font-weight: bold;
 }
 #ico {
-  padding-right: 20px;
+  padding-right: 26px;
 }
 #wa {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+}
+.imae {
+  margin-left: 5px;
 }
 
 #no {
@@ -717,6 +721,7 @@ a:hover {
     font-size: 10px;
     font-weight: bold;
     margin-left: 5px;
+    width: 30%;
   }
   /* akhir mengatur products */
   .testimoni {
@@ -726,20 +731,20 @@ a:hover {
     box-sizing: border-box;
     line-height: 0.75cm;
   }
-  .testimoni h5 {
-    font-family: sans-serif;
-    color: white;
-    font-weight: bold;
-    padding-top: 60px;
-    font-size: 12px;
-  }
+
   .testimoni h2 {
     padding-top: 30px;
     font-size: 19px;
     text-align: center;
     color: rgba(0, 0, 0, 0, 06);
   }
-
+  .testimoni h5 {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-top: 80px;
+    font-size: 12px;
+  }
   .testimoni p {
     padding: 10px 0px 0px;
     font-size: 9px;
@@ -750,7 +755,7 @@ a:hover {
   }
 
   .testimoni .benefits {
-    height: 550px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -764,13 +769,13 @@ a:hover {
     flex: 2;
     width: 100%;
     padding-left: 20px;
-    margin: 10px;
+    margin: 8px;
     padding: 0px 30px;
     text-align: justify;
     position: relative;
     box-shadow: 2px 2px 10px rgb(7, 7, 7, 0.3);
     border-radius: 12px;
-    height: 400px;
+    height: 480px;
   }
 
   .testimoni .two {
@@ -785,13 +790,11 @@ a:hover {
   .testimoni .icon {
     position: absolute;
     text-align: center;
-    right: 44%;
-    top: 12%;
+    right: 42%;
+    top: 11%;
     margin-bottom: 10px;
   }
-  .testimoni .three .icon {
-    margin: auto;
-  }
+
   .testimoni .judben h5 {
     color: rgba(0, 0, 0, 0, 06);
     margin-top: 10px;
@@ -807,15 +810,17 @@ a:hover {
     color: rgba(0, 0, 0, 0, 06);
     line-height: 0.5cm;
   }
-  #com {
-    padding-top: 30px;
-    font-size: 9px;
-    text-align: center;
-    padding: 0px 20px;
-    font-family: sans-serif;
-    color: rgba(0, 0, 0, 0, 06);
-    line-height: 0.5cm;
+
+  #s {
+    position: absolute;
+    top: 10%;
   }
+  #com {
+    text-align: center;
+    font-size: 9px;
+    padding: 0px 20px;
+  }
+
   /* mengatur about */
   #about {
     padding-top: 10px;
@@ -882,10 +887,12 @@ a:hover {
   }
   #kirim,
   #reset {
-    width: 100px;
+    margin-left: 0px;
+    margin-right: 5px;
+    width: 120px;
     height: 30px;
     font-size: small;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: gray;
   }
   #kirim:hover,
@@ -1213,7 +1220,7 @@ a:hover {
     font-family: sans-serif;
     color: white;
     font-weight: bold;
-    padding-top: 60px;
+    padding-top: 80px;
     font-size: 12px;
   }
   .testimoni h2 {
@@ -1248,7 +1255,7 @@ a:hover {
     text-align: justify;
     box-shadow: 2px 2px 10px rgb(7, 7, 7, 0.3);
     border-radius: 12px;
-    height: 200px;
+    height: 220px;
   }
 
   .testimoni .two {
@@ -1263,9 +1270,9 @@ a:hover {
   .testimoni .icon {
     position: absolute;
     text-align: center;
-    right: 42%;
+    right: 38%;
     top: 20%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .testimoni .three .icon {
     margin: auto;
@@ -1347,11 +1354,12 @@ a:hover {
   }
   #kirim,
   #reset {
-    width: 100px;
+    width: 150px;
     height: 30px;
     font-size: small;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: gray;
+    margin-left: 5px;
   }
   #kirim:hover,
   #reset:hover {
