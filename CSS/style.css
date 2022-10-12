@@ -29,7 +29,14 @@ p {
   padding-left: 30px;
   padding-right: 30px;
 }
-
+.navbar li {
+  margin-left: 20px;
+}
+.navbar li a:hover {
+  background-color: white;
+  border-radius: 20px;
+  transition: 0.5s all;
+}
 .main h1,
 h6 {
   font-family: "satisfy";
@@ -88,6 +95,7 @@ h6 {
 #about h2,
 #contacts {
   padding-bottom: 30px;
+  color: rgba(3, 3, 3, 0.6);
 }
 #abus h2 {
   padding-top: 0px;
@@ -147,6 +155,9 @@ h4 {
   flex: 1;
   justify-content: center;
   align-items: right;
+}
+.picunggul video {
+  border-radius: 10px;
 }
 #container {
   display: flex;
@@ -433,7 +444,7 @@ a:hover {
 }
 
 .contacts h2 {
-  color: gray;
+  color: rgba(3, 3, 3, 0.6);
   padding-top: 120px;
 }
 
@@ -639,6 +650,10 @@ a:hover {
     background-image: url(../Assets/IMG/Menu/bawang.png);
     background-position: 50% 50%;
     padding-bottom: 30px;
+  }
+
+  .picunggul video {
+    visibility: hidden;
   }
   .picunggul img {
     visibility: hidden;
@@ -946,7 +961,9 @@ a:hover {
   * {
     max-width: 100%;
   }
-
+  .picunggul video {
+    visibility: hidden;
+  }
   .navbar {
     height: 70px;
     width: 100%;
