@@ -817,6 +817,11 @@ a:hover {
   .testimoni .two {
     background-color: #fabd03;
   }
+  .testimoni .two:hover {
+    margin: auto;
+    width: 100%;
+  }
+
   .testimoni .three {
     background-color: #fabd03;
   }
