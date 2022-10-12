@@ -814,6 +814,11 @@ a:hover {
     border-radius: 12px;
     height: 480px;
   }
+  .testimoni .two:hover,
+  .testimoni .three:hover,
+  .testimoni .four :hover {
+    width: 100%;
+  }
 
   .testimoni .two {
     background-color: #fabd03;
