@@ -530,12 +530,13 @@ a:hover {
   color: rgba(3, 3, 3, 0.6);
 }
 .namalokasi p {
-  padding-top: 20px;
+  padding-top: 70px;
 }
 .namalokasi #pro {
   position: absolute;
-  top: 60px;
-  right: 175px;
+  top: 150px;
+  right: 280px;
+  padding: 20px 0px;
 }
 
 .pusatlokasi iframe {
@@ -1086,6 +1087,10 @@ a:hover {
     width: 100%;
     display: flex;
     flex-direction: row;
+  }
+  .navbar li {
+    display: flex;
+    margin: auto 10px;
   }
   .navbar li a:hover {
     background-color: #fabd03 !important;
