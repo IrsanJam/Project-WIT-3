@@ -526,6 +526,16 @@ a:hover {
     box-sizing: border-box;
     position: static;
   }
+  .navbar ul {
+    background-color: #fabd03 !important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar li a:hover {
+    transition: 0.5s all;
+  }
+
   /* untuk mengatur main */
   .main #utama {
     font-size: 70px;
