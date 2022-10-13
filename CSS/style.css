@@ -574,13 +574,17 @@ a:hover {
   }
   .navbar ul {
     background-color: #fabd03 !important;
-    justify-content: center;
-    flex: 4;
-    align-items: center;
-    padding: 0px 50px;
+    flex: 3;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    padding: 0px 10px;
+    width: 100%;
+  }
+  .navbar li {
+    background-color: #fabd03 !important;
+    font-size: 8px;
+    width: 100%;
   }
   .navbar li a:hover {
     transition: 0.5s all;
