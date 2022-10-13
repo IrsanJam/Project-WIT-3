@@ -981,6 +981,9 @@ a:hover {
   }
   .navbar ul {
     background-color: #fabd03 !important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
   }
   .navbar li a:hover {
     background-color: #fabd03 !important;
