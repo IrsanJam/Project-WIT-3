@@ -524,7 +524,7 @@ a:hover {
   .navbar {
     height: 70px;
     box-sizing: border-box;
-    position: fixed;
+    position: static;
   }
   .navbar ul {
     background-color: #fabd03 !important;
@@ -554,8 +554,8 @@ a:hover {
   }
   .main {
     text-align: center;
-    padding: 207px 50px;
-    background-position: 0px 10px;
+    padding: 177px 50px;
+    background-position: 0px 0px;
     width: auto;
     height: 550px;
   }
