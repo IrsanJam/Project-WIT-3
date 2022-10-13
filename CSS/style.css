@@ -526,16 +526,20 @@ a:hover {
   font-weight: 500;
   line-height: 0.65cm;
   margin-bottom: 10px;
-  padding: 0px 200px;
+  padding: 30px 200px;
   color: rgba(3, 3, 3, 0.6);
+  position: absolute;
+  bottom: 27%;
 }
 .namalokasi p {
-  padding-top: 70px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 20%;
 }
 .namalokasi #pro {
   position: absolute;
-  top: 150px;
-  right: 280px;
+  top: 70px;
+  right: 270px;
   padding: 20px 0px;
 }
 
