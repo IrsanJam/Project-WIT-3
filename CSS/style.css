@@ -1001,6 +1001,8 @@ a:hover {
   .lokasi {
     height: 275px;
     background-color: white;
+    max-width: 100%;
+    overflow: hidden;
     display: flex;
     padding: 0px 30px;
   }
