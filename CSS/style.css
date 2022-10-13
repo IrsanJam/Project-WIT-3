@@ -37,6 +37,7 @@ p {
   border-radius: 20px;
   transition: 0.5s all;
 }
+
 .main h1,
 h6 {
   font-family: "satisfy";
@@ -584,6 +585,10 @@ a:hover {
   .navbar li a:hover {
     transition: 0.5s all;
   }
+  .ikon {
+    width: 25px;
+    height: 25px;
+  }
 
   /* untuk mengatur main */
   .main #utama {
@@ -826,6 +831,7 @@ a:hover {
     box-sizing: border-box;
     line-height: 0.75cm;
     margin: auto;
+    margin-bottom: 0px;
   }
 
   .testimoni h2 {
