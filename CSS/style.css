@@ -349,7 +349,7 @@ a:hover {
 }
 .testimoni h5 {
   font-family: sans-serif;
-  color: white;
+  color: rgba(3, 3, 3, 0.6);
   font-weight: bold;
   padding-top: 100px;
   font-size: 12px;
@@ -411,7 +411,7 @@ a:hover {
   top: 16%;
 }
 .testimoni .judben h5 {
-  color: rgba(0, 0, 0, 0, 06);
+  color: rgba(3, 3, 3, 0.6);
   margin-top: 15px;
   margin-bottom: 5px;
   font-size: 12px;
@@ -426,7 +426,7 @@ a:hover {
   padding: 0px 20px;
   width: 100%;
   padding-top: 10px;
-  color: rgba(0, 0, 0, 0, 06);
+  color: rgba(3, 3, 3, 0.6);
   position: absolute;
   line-height: 0.5cm;
   margin-bottom: 10px;
@@ -439,7 +439,7 @@ a:hover {
   flex-direction: row;
   padding: 0px 100px;
   font-family: sans-serif;
-  color: white;
+  color: rgba(3, 3, 3, 0.6);
   position: absolute;
   line-height: 0.5cm;
 }
