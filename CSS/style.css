@@ -969,6 +969,15 @@ a:hover {
     box-sizing: border-box;
     position: static;
   }
+  .navbar ul {
+    background-color: #fabd03 !important;
+  }
+  .navbar li a:hover {
+    background-color: #fabd03 !important;
+    border-radius: 20px;
+    transition: 0.5s all;
+  }
+
   /* untuk mengatur main */
   .main #utama {
     font-size: 100px;
