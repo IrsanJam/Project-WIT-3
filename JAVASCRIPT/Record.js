@@ -1,5 +1,5 @@
 let send = document.getElementById("kirim");
-send.onclick = showMassage;
+(send.onclick = showMassage), clear;
 
 //  cek input
 
