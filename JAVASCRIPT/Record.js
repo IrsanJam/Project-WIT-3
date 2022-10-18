@@ -10,6 +10,7 @@ function showMassage() {
   let check4 = document.getElementById("inp4").value;
   if (check1 != "" && check2 != "" && check3 != "" && check4 != "") {
     alert("Terimakasih Permintaan anda akan kami Proses");
+    document.body.onload = clear;
     return true;
   } else {
     alert("Mohon Isi Dahulu dan Lengkapi");
@@ -24,3 +25,4 @@ function clear() {
   let check7 = (document.getElementById("inp3").value = "");
   let check8 = (document.getElementById("inp4").value = "");
 }
+document.body.onload = clear;
