@@ -76,6 +76,7 @@ h6 {
   height: 50px;
   width: 180px;
   border-radius: 22px;
+  border-color: white;
   background-color: orangered;
   background-color: #fabd03;
   color: rgb(3, 3, 3, 0.6);

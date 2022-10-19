@@ -1,6 +1,5 @@
 let send = document.getElementById("kirim");
-(send.onclick = showMassage), clear;
-
+(send.onclick = showMassage), clear();
 //  cek input
 
 function showMassage() {
@@ -8,8 +7,8 @@ function showMassage() {
   let check2 = document.getElementById("inp2").value;
   let check3 = document.getElementById("inp3").value;
   let check4 = document.getElementById("inp4").value;
+
   if (check1 != "" && check2 != "" && check3 != "" && check4 != "") {
-    document.body.onload = clear;
     return true;
   } else {
     alert("Mohon Isi Dahulu dan Lengkapi");
@@ -25,3 +24,7 @@ function clear() {
   let check8 = (document.getElementById("inp4").value = "");
 }
 document.body.onload = clear;
+
+function refreshPage() {
+  window.location.reload();
+}
