@@ -29,7 +29,7 @@ p {
   height: 90px;
   position: fixed;
   z-index: 1;
-  font-size: 13px;
+  font-size: small;
   width: 100%;
 }
 .navbar li {
