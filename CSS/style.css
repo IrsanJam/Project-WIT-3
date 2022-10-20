@@ -29,11 +29,13 @@ p {
   height: 90px;
   position: fixed;
   z-index: 1;
+  font-size: 13px;
   width: 100%;
 }
 .navbar li {
-  margin-left: 7px;
+  margin-left: 11px;
 }
+
 .navbar li a:hover {
   background-color: white;
   border-radius: 20px;
@@ -1093,12 +1095,12 @@ a:hover {
   }
   /* akhir mengatur contacts */
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .main {
     background-position: 0px 0px;
   }
   body {
-    background-color: aliceblue;
+    background-color: rgb(238, 230, 230);
   }
   * {
     max-width: 100%;
@@ -1108,15 +1110,16 @@ a:hover {
   }
   .navbar {
     height: 70px;
-    width: 100%;
     box-sizing: border-box;
     position: static;
   }
   .navbar ul {
     background-color: #fabd03 !important;
-    width: 100%;
+    flex: 6;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
   }
   .navbar li {
     display: flex;
@@ -1143,7 +1146,7 @@ a:hover {
   .main {
     text-align: center;
     padding: 177px 50px;
-    background-position: 0px 0px;
+    background-position: 0px -50px;
     width: auto;
     height: 530px;
   }
@@ -1182,7 +1185,7 @@ a:hover {
     /* height: 1600px; */
     height: 1400px;
     width: auto;
-    background-color: aliceblue;
+    background-color: rgb(238, 230, 230);
   }
   #products h2 {
     padding-top: 30px;
@@ -1392,7 +1395,7 @@ a:hover {
     text-align: center;
   }
   .buy {
-    background-color: aliceblue;
+    background-color: rgb(238, 230, 230);
   }
   /* akhir mengatur products */
 
@@ -1633,7 +1636,7 @@ a:hover {
   }
   /* akhir mengatur contacts */
 }
-@media (min-width: 1024px) and (max-width: 1322px) {
+@media (min-width: 992px) and (max-width: 1322px) {
   .main {
     background-position: 0px 0px;
   }
@@ -1643,28 +1646,9 @@ a:hover {
   .picunggul video {
     visibility: hidden;
   }
-  .navbar {
-    height: 70px;
-    width: 100%;
-    box-sizing: border-box;
-    position: static;
+  .navbar ul li {
+    font-size: 10px;
   }
-  .navbar ul {
-    background-color: #fabd03 !important;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-  .navbar li {
-    display: flex;
-    margin: auto 10px;
-  }
-  .navbar li a:hover {
-    background-color: #fabd03 !important;
-    border-radius: 20px;
-    transition: 0.5s all;
-  }
-
   /* untuk mengatur main */
   .main #utama {
     font-size: 100px;
@@ -1679,10 +1663,10 @@ a:hover {
   }
   .main {
     text-align: center;
-    padding: 177px 50px;
-    background-position: 0px 0px;
+    padding: 277px 50px;
+    background-position: 0px -30px;
     width: auto;
-    height: 530px;
+    height: 630px;
   }
   #but {
     width: 100px;
@@ -1717,8 +1701,10 @@ a:hover {
   /* mengatur products */
   #products {
     /* height: 1600px; */
-    height: 800px;
+    height: 1395px;
     width: auto;
+    padding: 0px 60px;
+    margin: 0px 80px;
   }
   #products h2 {
     padding-top: 30px;
